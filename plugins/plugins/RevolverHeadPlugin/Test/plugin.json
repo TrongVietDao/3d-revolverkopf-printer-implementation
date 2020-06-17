@@ -1,0 +1,8 @@
+{
+    "name": "!Revolving Head Plugin",
+    "author": "Trong Viet Dao & Dennis Walter",
+    "version": "0.0.1",
+    "description": "Provides support for a revolving head printer with multiple extruders.",
+    "api": "7.0",
+    "i18n-catalog": "cura"
+}

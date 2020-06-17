@@ -1,0 +1,30 @@
+UI labels
+cura/resources/definitions/fdmprinter.def.json
+cura/resources/i18n/de_DE/fdmprinter.def.json.po
+
+UI definitions
+cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml
+cura/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml
+cura/resources/qml/Settings/SettingView.qml
+cura/cura/Settings/SettingInheritanceManager.py
+cura/resources/setting_visibility/advanced.cfg
+
+Extruder related
+cura/resources/qml/Toolbar.qml
+cura/resources/bundled_packages/cura.json
+cura/resources/qml/Actions.qml
+cura/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml -> menu: Cura.MaterialMenu
+cura/resources/definitions/fdmextruder.def.json
+cura/resources/qml/Menus/MaterialMenu.qml
+cura/cura/CuraApplication.py
+
+
+Topics
+@pyqtSlot(str, result = "QStringList")
+
+SettingView.qml
+case "str":
+    return "SettingTextField.qml"
+
+
+"wall_extruder_material"
