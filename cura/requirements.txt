@@ -1,7 +1,7 @@
 colorlog
 mypy==0.740
 PyQt5==5.10
-numpy==1.15.4
+numpy==1.22.0
 scipy==1.2.0
 shapely[vectorized]==1.6.4.post2
 appdirs==1.4.3
